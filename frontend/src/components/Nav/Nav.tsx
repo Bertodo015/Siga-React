@@ -15,11 +15,11 @@ export default function Nav(props: { logado: boolean }) {
         <nav>
             <div className="perfil">
                 <img src="fotos/b93dcc21a7dbdb53853273dc5d39ee99.jpg" alt="foto Perfil" /><br />
-                    <a href="conta.php">conta</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="deslogar.php">sair</a>
+                    <Link to="/conta">conta</Link>&nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/deslogar">sair</Link>
                 </div>
                     <ul>
                         <li><Link to="/home">Home</Link></li>
-                        <li><Link to="/biblioteca">Biblioteca</Link></li>
+                        <li><Link to="/Biblioteca">Biblioteca</Link></li>
                         <li><Link to="/disciplinas">Disciplinas</Link></li>
                         <li><Link to="/boletim">Boletim</Link></li>
                         <li><Link to="/jogo">Jogar</Link></li>

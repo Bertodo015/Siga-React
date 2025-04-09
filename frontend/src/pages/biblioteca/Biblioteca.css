@@ -1,12 +1,4 @@
-.perfil{
-    text-align: center;
-}
-.perfil > img{
-    height:100px;
-    width:100px;
-    border-radius: 50%;
-}
-nav{
+main{
     border-color: black;
     border-width: 1px;
     border-style: solid;
@@ -15,9 +7,11 @@ nav{
     padding: 5px;
 }
 
-nav{
-    flex: 10%;
+
+main{
+    flex: 60%;
 }
+
 
 li:hover{
     background-color: lightblue;
